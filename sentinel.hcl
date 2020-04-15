@@ -11,9 +11,6 @@ policy "azurerm-restrict-vm-size" {
 }
 
 policy "az-restrict-publisher-f5" {
-  enforement_level = "soft-mandatory"
-}
-
-policy "az-alert-mgmt-nic-allow-all" {
   enforcement_level = "soft-mandatory"
 }
+
